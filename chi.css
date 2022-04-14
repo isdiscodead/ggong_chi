@@ -1,0 +1,88 @@
+:root {
+    --lime : #c5ff52;
+    --dark : #2e2e2e;
+    --white : #f0f0f0;
+}
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    color: var(--white);
+    font-family: "GmarketSansLight";
+    background-color: var(--dark);
+    padding: 0;
+    margin: 0;
+}
+
+.sticky-banner {
+    position: fixed;
+    padding-top: 0.5rem;
+}
+
+.content {
+    text-align: center;
+    padding: 2rem;
+}
+
+.profile {
+    margin: 1rem;
+    width: 20%;
+    border-radius: 10rem;
+}
+
+h2 {
+    font-family: 'GmarketSansBold';
+    margin-top: 2rem;
+}
+
+header,marquee {
+    background-color: var(--lime);
+    color:#2e2e2e;
+}
+
+ul,li {
+    text-decoration: none;
+    list-style:none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+hr {
+    height: 1px;
+    margin: 2rem;
+}
+
+.time-line {
+    width: 70%;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.line {
+    width: 50%;
+    height: 500px;
+    margin: 1rem;
+    border-right: solid 0.5px var(--lime);
+}
+
+.time-img {
+    width: 50%;
+    border-radius: 2rem;
+    margin: 1rem auto;
+    display: block;
+}

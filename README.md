@@ -1,5 +1,6 @@
 # ggong_chi
 Let me introduce my cat!! 🐈
+https://isdiscodead.github.io/ggong_chi/
 
 - favicon 등록하기
 - 메뉴 버튼 및 애니메이션 추가

@@ -7,21 +7,52 @@
     <title>name == 꽁치</title>
 
     <link href="index.css" rel="stylesheet" type="text/css" >
+
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <script>
+        var flag = true;
+        function change_h2() {
+            if (flag) {
+                document.getElementById('title').innerHTML = "이 고양이는 뭉치라고 합니다 😼";
+                flag = !flag;
+            } else {
+                document.getElementById('title').innerHTML = "이 고양이는 꽁치라고 합니다 😼";
+                flag = !flag;
+            }
+            
+        }
+    </script>
 </head>
 <body>
     <header class="sticky-banner" >
         <marquee bgcolor:="#c5ff52">
             우리집 고양이 츄르를 좋아해 우리집 고양이 츄르를 좋아해 우리집 고양이 츄르를 좋아해 우리집 고양이 츄르를 좋아해 우리집 고양이 츄르를 좋아해 우리집 고양이 츄르를 좋아해 우리집 고양이 츄르를 좋아해
         </marquee>
-        
+        <div class="menu-bar">MENU</div>
     </header>
     
     <div class="content">
         <div class="">
-            <h2>이 고양이는 꽁치라구 합니다 😼</h2>
+            <a href="javascript:change_h2();"><h2 id="title">이 고양이는 꽁치라고 합니다 😼</h2></a>
             <img class="profile" src="hyung-nim-ggongchi.jpeg">
         </div>
-
         <div>
             <ul>
                 <li><b>꽁치 ( 뭉치 )</b></li><br>
@@ -43,6 +74,7 @@
                     <div class="line"></div>
                     <li>2018.06 - 캣초딩 시절 </li>
                     <div class="line"></div>
+                    <li>2018.12 - 사춘기 냥이  </li>
                 </ul>
             </div>
             <div class="time-images">

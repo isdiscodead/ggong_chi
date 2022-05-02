@@ -86,3 +86,7 @@ hr {
     margin: 1rem auto;
     display: block;
 }
+
+a {
+    text-decoration: none;
+}
